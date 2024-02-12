@@ -25,12 +25,24 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Center(
-        child: Container(
-          width: 207,
-          height: 56,
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage("assets/images/logos_netflix (3).png"))),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 207,
+              height: 56,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image:
+                          AssetImage("assets/images/logos_netflix (3).png"))),
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            CircularProgressIndicator(
+              color: Colors.red,
+            )
+          ],
         ),
       ),
     );

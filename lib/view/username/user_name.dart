@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_december/utils/color_constants/color_constants.dart';
+
+import 'package:netflix_december/utils/db/db.dart';
+import 'package:netflix_december/utils/image_constants/image_constants.dart';
 
 class UserName extends StatefulWidget {
   const UserName({super.key});
@@ -11,14 +15,14 @@ class _UserNameState extends State<UserName> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: ColorConstant.backgroundBlack,
       appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.black,
+          backgroundColor: ColorConstant.backgroundBlack,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/images/logos_netflix (3).png"),
+              Image.asset("assets\images\logos_netflix (3).png"),
               SizedBox(
                 width: 100,
               ),
