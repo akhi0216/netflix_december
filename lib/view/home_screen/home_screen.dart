@@ -154,6 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 iscircle: true,
                 imagelist: DataBase.movieimglist),
             CustomCard(
+              isbottomcard: true,
               imagelist: DataBase.movieimglist,
               title: "continue watching for",
               height: 250,
