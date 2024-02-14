@@ -40,53 +40,70 @@ class DataBase {
   static List<Map<String, String>> searchScreenDatas = [
     {
       "imageUrl":
-          "https://i.pinimg.com/736x/e8/e7/a2/e8e7a2ab4bbd0a540d21dc52da2a540f.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Avatar"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/d2/70/89/d270896d9bfbc63513d1090224070e8b.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Interstellar"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bb/91/7d/bb917d1fcafbcaca51cdb3756b2d03d3.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Hackers"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/9a/6a/2a/9a6a2aef98b281ac5b569d20d5b7dd38.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "WarGames"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/df/62/4e/df624e69f236cc8113c5b471c8fdff84.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Tron"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/bd/dd/44/bddd4473c43ea93d6f362ab4d2aa1545.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "The Social Network"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/be/42/45/be4245afdd7fa145b532b453337a84e5.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "The Imitation Game"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/53/58/81/535881e220a3792a1640a2e66e6c79b4.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Little Women"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/8c/e3/5f/8ce35f08a33293522c4d60cbc5e642be.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Titanic"
     },
     {
       "imageUrl":
-          "https://i.pinimg.com/564x/8c/d9/f2/8cd9f2bdece7ada794937fd9cd960c6a.jpg",
+          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Archer"
+    }
+  ];
+
+  static List<Map<String, String>> comingsoondatas = [
+    {
+      "imageUrl":
+          "https://images.pexels.com/photos/20153996/pexels-photo-20153996/free-photo-of-man-in-hat-and-checkered-trousers-lying-down-on-concrete-blocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title1": "New Arrival",
+      "title2": "El chapo",
+      "title3": "nov 6"
+    },
+    {
+      "imageUrl":
+          "https://images.pexels.com/photos/20153996/pexels-photo-20153996/free-photo-of-man-in-hat-and-checkered-trousers-lying-down-on-concrete-blocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title1": "New Arrival",
+      "title2": "El chapo",
+      "title3": "nov 6"
     }
   ];
 }
