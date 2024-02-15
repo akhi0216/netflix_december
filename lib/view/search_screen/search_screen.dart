@@ -39,7 +39,7 @@ class _SearchScreenState extends State<SearchScreen> {
               child: Text(
                 "TOP SEARCHES",
                 style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 20),
               ),
