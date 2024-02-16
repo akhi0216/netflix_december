@@ -1,20 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_december/utils/color_constants/color_constants.dart';
 
 class SeconscustomCard extends StatelessWidget {
-  const SeconscustomCard({super.key});
+  const SeconscustomCard(
+      {super.key,
+      required this.title,
+      required this.subtitle,
+      required this.des,
+      required this.imageurl});
 
+  final String title;
+  final String subtitle;
+  final String des;
+  final String imageurl;
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Container(
-          height: 193,
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: NetworkImage(
-                      "https://images.pexels.com/photos/20153996/pexels-photo-20153996/free-photo-of-man-in-hat-and-checkered-trousers-lying-down-on-concrete-blocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
-                  fit: BoxFit.cover)),
-          child: Padding(
+    return Container(
+      child: Column(
+        children: [
+          Container(
+            height: 193,
+            decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: NetworkImage(imageurl), fit: BoxFit.cover)),
+          ),
+          Padding(
             padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 30),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -35,7 +45,7 @@ class SeconscustomCard extends StatelessWidget {
                     )
                   ],
                 ),
-                SizedBox(width: 20),
+                SizedBox(width: 7),
                 // 2nd col
                 Column(
                   children: [
@@ -56,8 +66,35 @@ class SeconscustomCard extends StatelessWidget {
               ],
             ),
           ),
-        )
-      ],
+          // next row
+          SizedBox(height: 5),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  subtitle,
+                  style: TextStyle(color: ColorConstant.textColor),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  title,
+                  style: TextStyle(
+                      color: ColorConstant.textColor,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  des,
+                  style: TextStyle(color: ColorConstant.textColor),
+                  maxLines: 3,
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
     );
   }
 }

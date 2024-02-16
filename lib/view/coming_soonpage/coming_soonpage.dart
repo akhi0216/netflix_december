@@ -24,6 +24,7 @@ class _ComingSoonState extends State<ComingSoon> {
                 color: ColorConstant.textColor, fontWeight: FontWeight.bold)),
       ),
       body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
         child: Column(
           children: [
             Container(
@@ -47,10 +48,16 @@ class _ComingSoonState extends State<ComingSoon> {
             ),
             // 2nd
             ListView.builder(
-                itemCount: 4,
-                shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (context, index) => SeconscustomCard())
+              itemCount: DataBase.notificationMovieList.length,
+              shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
+              itemBuilder: (context, index) => SeconscustomCard(
+                imageurl: DataBase.notificationMovieList[index]["imageUrl"],
+                title: DataBase.notificationMovieList[index]["title"],
+                subtitle: DataBase.notificationMovieList[index]["subtitle"],
+                des: DataBase.notificationMovieList[index]["description"],
+              ),
+            ),
           ],
         ),
       ),

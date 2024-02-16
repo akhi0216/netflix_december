@@ -106,4 +106,31 @@ class DataBase {
       "title3": "nov 6"
     }
   ];
+
+  static List<Map<String, dynamic>> notificationMovieList = [
+    {
+      "title": "Inception",
+      "subtitle": "Your mind is the scene of the crime.",
+      "description":
+          "A thief who enters the dreams of others to steal secrets from their subconscious.",
+      "imageUrl":
+          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "subtitle": "Fear can hold you prisoner. Hope can set you free.",
+      "description":
+          "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "imageUrl":
+          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+    },
+    {
+      "title": "The Dark Knight",
+      "subtitle": "Why so serious?",
+      "description":
+          "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "imageUrl":
+          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+    },
+  ];
 }
