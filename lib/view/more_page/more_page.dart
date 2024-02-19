@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_december/globalwidgets/usernamecard.dart';
 import 'package:netflix_december/utils/color_constants/color_constants.dart';
 import 'package:netflix_december/utils/db/db.dart';
 
@@ -18,30 +19,57 @@ class _MorePageState extends State<MorePage> {
         children: [
           SizedBox(height: 20),
           Container(
-            height: 100,
+            height: 150,
             child: ListView.separated(
                 scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) => Column(
-                      children: [
-                        Container(
-                          height: 70,
-                          width: 90,
-                          decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: NetworkImage(DataBase
-                                      .userdetails[index]["userimage"]
-                                      .toString()),
-                                  fit: BoxFit.fill)),
+                itemBuilder: (context, index) => index <
+                        DataBase.userdetails.length
+                    ? UsernameCard(
+                        imageurl:
+                            DataBase.userdetails[index]["userimage"].toString(),
+                        username:
+                            DataBase.userdetails[index]["username"].toString(),
+                        height: index == 0 ? 100 : 80,
+                        width: index == 0 ? 100 : 80,
+                      )
+                    : InkWell(
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 55,
+                              width: 55,
+                              // color: Colors.white,
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/images/addbutton.png")),
+                                  borderRadius: BorderRadius.circular(10)),
+                            ),
+                          ],
                         ),
-                        SizedBox(height: 5),
-                        Text(
-                          DataBase.userdetails[index]["username"].toString(),
-                          style: TextStyle(color: ColorConstant.textColor),
-                        )
-                      ],
-                    ),
+                      ),
+
+                // Column(
+                //       children: [
+                //         Container(
+                //           height: 70,
+                //           width: 90,
+                //           decoration: BoxDecoration(
+                //               image: DecorationImage(
+                //                   image: NetworkImage(DataBase
+                //                       .userdetails[index]["userimage"]
+                //                       .toString()),
+                //                   fit: BoxFit.fill)),
+                //         ),
+                //         SizedBox(height: 5),
+                //         Text(
+                //           DataBase.userdetails[index]["username"].toString(),
+                //           style: TextStyle(color: ColorConstant.textColor),
+                //         )
+                //       ],
+                //     ),
                 separatorBuilder: (context, index) => SizedBox(width: 10),
-                itemCount: DataBase.userdetails.length),
+                itemCount: DataBase.userdetails.length + 1),
           ),
           SizedBox(height: 7),
           // 2nd

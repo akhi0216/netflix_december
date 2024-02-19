@@ -58,24 +58,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               // 2nd
-              Positioned(
-                bottom: 0,
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(Imageconstant.topten),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        "#2 in Nigeria today",
-                        style: TextStyle(color: Colors.white, fontSize: 17),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              // Positioned(
+              //   bottom: 0,
+              //   child: Container(
+              //     child: Row(
+              //       mainAxisAlignment: MainAxisAlignment.center,
+              //       children: [
+              //         Image.asset(Imageconstant.topten),
+              //         SizedBox(
+              //           width: 10,
+              //         ),
+              //         Text(
+              //           "#2 in Nigeria today",
+              //           style: TextStyle(color: Colors.white, fontSize: 17),
+              //         ),
+              //       ],
+              //     ),
+              //   ),
+              // ),
             ],
           ),
 

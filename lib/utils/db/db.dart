@@ -40,52 +40,52 @@ class DataBase {
   static List<Map<String, String>> searchScreenDatas = [
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/5774802/pexels-photo-5774802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Avatar"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/7672252/pexels-photo-7672252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Interstellar"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/38275/anonymous-studio-figure-photography-facial-mask-38275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Hackers"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "WarGames"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/38275/anonymous-studio-figure-photography-facial-mask-38275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Tron"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/5774802/pexels-photo-5774802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "The Social Network"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "The Imitation Game"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Little Women"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Titanic"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/18965344/pexels-photo-18965344/free-photo-of-a-flower-is-shown-in-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/38275/anonymous-studio-figure-photography-facial-mask-38275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "movieName": "Archer"
     }
   ];
@@ -93,17 +93,17 @@ class DataBase {
   static List<Map<String, String>> comingsoondatas = [
     {
       "imageUrl":
-          "https://images.pexels.com/photos/20153996/pexels-photo-20153996/free-photo-of-man-in-hat-and-checkered-trousers-lying-down-on-concrete-blocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/7672252/pexels-photo-7672252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title1": "New Arrival",
       "title2": "El chapo",
       "title3": "nov 6"
     },
     {
       "imageUrl":
-          "https://images.pexels.com/photos/20153996/pexels-photo-20153996/free-photo-of-man-in-hat-and-checkered-trousers-lying-down-on-concrete-blocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/38275/anonymous-studio-figure-photography-facial-mask-38275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title1": "New Arrival",
-      "title2": "El chapo",
-      "title3": "nov 6"
+      "title2": "le maria",
+      "title3": "dec 6"
     }
   ];
 
@@ -114,7 +114,7 @@ class DataBase {
       "description":
           "A thief who enters the dreams of others to steal secrets from their subconscious.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://images.pexels.com/photos/5774802/pexels-photo-5774802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       "title": "The Shawshank Redemption",
@@ -122,7 +122,7 @@ class DataBase {
       "description":
           "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://images.pexels.com/photos/38275/anonymous-studio-figure-photography-facial-mask-38275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       "title": "The Dark Knight",
@@ -130,7 +130,7 @@ class DataBase {
       "description":
           "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
 }
